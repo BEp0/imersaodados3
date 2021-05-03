@@ -4,9 +4,8 @@ url_dados = 'https://github.com/BEp0/imersaodados3/blob/main/dados/dados_experim
 
 dados = pd.read_csv(url_dados, compression = 'zip')
 
-print(dados['tratamento'].unique())
-
-# dados.head()
+#print(dados['tratamento'].unique())
+print(dados.head())
 # dados['tratamento']
 # dados['tratamento'].unique()
 # dados['tempo'].unique()
