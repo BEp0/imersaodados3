@@ -43,18 +43,18 @@ Logo depois, acompanhei o vídeo disponibilizado pela alura e fui seguindo os pa
 
 > Resolver os desafios com base na documentação do PANDAS
 
-1. Porque há tanto com droga e com tratamento?
+1. Porque há tanto com droga e com tratamento? [  ]
 
-2. Plotar as 5 ultimas linhas da tabela
+2. Plotar as 5 ultimas linhas da tabela [  ]
 
-3. Proporção das classes tratamento
+3. Proporção das classes tratamento [  ]
 
-4. Quantas tipos de drogas foram investigados
+4. Quantas tipos de drogas foram investigados [  ]
 
-5. Método query do pandas
+5. Método query do pandas [  ]
 
-6. Renomear as colunas
+6. Renomear as colunas [  ]
 
-7. Deixar os gráficos com titulos
+7. Deixar os gráficos com títulos [  ]
 
-8. Resumo do que aprendeu com os dados
+8. Resumo do que aprendeu com os dados [  ]
