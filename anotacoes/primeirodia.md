@@ -99,4 +99,4 @@ Logo depois, acompanhei o vídeo disponibilizado pela alura e fui seguindo os pa
     tratamento.plot.bar()
     plt.title('Tipos de Tratamento', fontsize=16)
     ```
-8. Resumo do que aprendeu com os dados [  ]
+8. Resumo do que aprendeu com os dados 
