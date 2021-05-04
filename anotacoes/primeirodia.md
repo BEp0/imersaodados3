@@ -23,7 +23,7 @@ Logo depois, acompanhei o vídeo disponibilizado pela alura e fui seguindo os pa
 
     #resultado:
 
-        0, 1, 2, 3, 4, 5, 6
+        #0, 1, 2, 3, 4, 5, 6
 
 3. `compression = 'zip'`
     - É um parametro para indicar que o arquivo está em formato zip
@@ -100,3 +100,7 @@ Logo depois, acompanhei o vídeo disponibilizado pela alura e fui seguindo os pa
     plt.title('Tipos de Tratamento', fontsize=16)
     ```
 8. Resumo do que aprendeu com os dados 
+
+
+## Resumindo:
+Bom, este dia foi um dia de bastante experimentação, entendendo como funciona o Colab e o Pandas. Desta forma, foi mostrado a criação do zero, desde pegar os dados do GitHub, até criar os primeiros gráficos. Foi bem produtivo, mas tem muito caminho pela frente!

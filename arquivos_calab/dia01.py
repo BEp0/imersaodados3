@@ -14,33 +14,34 @@ url_dados = 'https://github.com/BEp0/imersaodados3/blob/main/dados/dados_experim
 
 dados = pd.read_csv(url_dados, compression = 'zip')
 
-dados
+print(dados)
 
-dados.head()
+dados.head() # 5 primeiras linhas
 
-dados.tail()
+dados.tail() # 5 ultimas linhas 
 
-tratados = dados[dados['g-0'] > 0]
+tratados = dados[dados['g-0'] > 0] # somente os dados da coluna 'g-0' que são maiores que 0
 
-tratamento = dados['tratamento'].value_counts()
+tratamento = dados['tratamento'].value_counts() # somente a coluna tratamento
 
-valor_droga = dados['droga'].unique()
+valor_droga = dados['droga'].unique() # somente a coluna droga
 
-dados['id'].unique()
+dados['id'].unique() # teste
 
-dados['dose'].unique()
+dados['dose'].unique() # teste
 
 valor_dose = dados['dose'].value_counts()
 
-valor_dose.plot.barh()
+valor_dose.plot.barh() # gráfico das doses
 plt.title('GRÁFICO DAS DOSES')
 plt.ylabel('TIPOS DE DOSES')
 
-tratamento.plot.bar()
+tratamento.plot.bar() # gráfico dos tratamentos
 plt.title('Tipos de Tratamento', fontsize=16)
 
 dados['tratamento'].value_counts()
 
+# calculando a porcentagem de tratamentos
 cd = dados['tratamento'].value_counts()[0]
 cc = dados['tratamento'].value_counts()[1]
 
@@ -51,11 +52,9 @@ porcentagem_cc = (cc * 100) / total
 
 porcentagem_cc, porcentagem_cd
 
+# reatribuindo o valor de 'g-0' para 'g0'
 for i in range(0, 35):
   mapa = {f'g-{i}': f'g{i}'}
   dados.rename(columns=mapa, inplace=True)
-
-mapa = {'droga':'composto'}
-dados.rename(columns=mapa, inplace=True)
 
 dados # com colunas renomeadas
