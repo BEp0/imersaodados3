@@ -43,12 +43,13 @@ Logo depois, acompanhei o vídeo disponibilizado pela alura e fui seguindo os pa
 
 > Resolver os desafios com base na documentação do PANDAS
 
-1. Porque há tanto com droga e pouco com controle? [ X ]
+1. Porque há tanto com droga e pouco com controle? 
     - Ao meu ver, as chamadas "com_droga" são usadas para verificar a reação sem influência externas, logo as "com controle" são para verificar a reação em um cenário expecífico.
 
-2. Plotar as 5 ultimas linhas da tabela [  ]
+2. Plotar as 5 ultimas linhas da tabela 
+    - Para plotar as 5 ultimas linhs da tabela devemos usar o método "`.tail()`".
 
-3. Proporção das classes tratamento [ X ]
+3. Proporção das classes tratamento 
     - Para identificar quanto tinhamos de "com_controle" e "com_dorga", fiz o seguite código:
     
     ```
@@ -64,19 +65,34 @@ Logo depois, acompanhei o vídeo disponibilizado pela alura e fui seguindo os pa
     ```
     - Desta forma, encontramos que os "com_droga" representam 92,16% do total. Já os "com_controle" representam 7,84%.
 
-4. Quantas tipos de drogas foram investigados [ X ]
+4. Quantas tipos de drogas foram investigados 
     - Na verdade não são drogas, mas sim vários compostos. Sabemos isso por conta do número de "drogas" que é muito alto.
 
-5. Método query do pandas [  ]
+5. Método query do pandas 
+    - Exemplo usando query
+    
+    ```
+    df = pd.DataFrame({'A': range(1, 6),
+                   'B': range(10, 0, -2),
+                   'C C': range(10, 5, -1)})
 
-6. Renomear as colunas [ X ]
+    df.query('B == `C C`')
+   # resultado: 
+        A   B  C C
+     0  1  10   10
+    ```
+    
+    - Desta forma, o método query é equivalente a usar a seguinte expressão: `df[df.B == df['C C']]`
+    - Logo, nos nossos exercícios, onde usamos `dados[dados['nome_da_coluna'] > 0]`, por exemplo, é a mesma coisa que usar: `dados.query('nome_da_coluna' > 0)`
+
+6. Renomear as colunas 
     - Para renomear as colunas utilizei o seguinte método:
     
     ```for i in range(0, 35):
         mapa = {f'g-{i}': f'g{i}'}
         dados.rename(columns=mapa, inplace=True)
     ```
-7. Deixar os gráficos com títulos [ X ]
+7. Deixar os gráficos com títulos 
     - Para adicionar título ao gráfico, usei o seguinte método:
 
     ```
