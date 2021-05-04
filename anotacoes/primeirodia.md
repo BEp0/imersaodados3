@@ -43,18 +43,44 @@ Logo depois, acompanhei o vídeo disponibilizado pela alura e fui seguindo os pa
 
 > Resolver os desafios com base na documentação do PANDAS
 
-1. Porque há tanto com droga e com tratamento? [  ]
+1. Porque há tanto com droga e pouco com controle? [ X ]
+    - Ao meu ver, as chamadas "com_droga" são usadas para verificar a reação sem influência externas, logo as "com controle" são para verificar a reação em um cenário expecífico.
 
 2. Plotar as 5 ultimas linhas da tabela [  ]
 
-3. Proporção das classes tratamento [  ]
+3. Proporção das classes tratamento [ X ]
+    - Para identificar quanto tinhamos de "com_controle" e "com_dorga", fiz o seguite código:
+    
+    ```
+    cd = dados['tratamento'].value_counts()[0]
+    cc = dados['tratamento'].value_counts()[1]
 
-4. Quantas tipos de drogas foram investigados [  ]
+    total = cd + cc
+
+    porcentagem_cd = (cd * 100) / total
+    porcentagem_cc = (cc * 100) / total
+
+    porcentagem_cc, porcentagem_cd    # nos mostra a porcentagem
+    ```
+    - Desta forma, encontramos que os "com_droga" representam 92,16% do total. Já os "com_controle" representam 7,84%.
+
+4. Quantas tipos de drogas foram investigados [ X ]
+    - Na verdade não são drogas, mas sim vários compostos. Sabemos isso por conta do número de "drogas" que é muito alto.
 
 5. Método query do pandas [  ]
 
-6. Renomear as colunas [  ]
+6. Renomear as colunas [ X ]
+    - Para renomear as colunas utilizei o seguinte método:
+    
+    ```for i in range(0, 35):
+        mapa = {f'g-{i}': f'g{i}'}
+        dados.rename(columns=mapa, inplace=True)
+    ```
+7. Deixar os gráficos com títulos [ X ]
+    - Para adicionar título ao gráfico, usei o seguinte método:
 
-7. Deixar os gráficos com títulos [  ]
-
+    ```
+    tratamento.plot.bar()
+    plt.title('Tipos de Tratamento', fontsize=16)
+    ```
 8. Resumo do que aprendeu com os dados [  ]
