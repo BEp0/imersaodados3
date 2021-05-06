@@ -1,5 +1,5 @@
 # 1º dia:
-
+### [Link para o notebook do 1º dia](https://github.com/BEp0/imersaodados3/blob/main/arquivos_calab/dia1.ipynb)
 Neste dia o meu 1º desafio foi rodar o pandas no VSCode, que é o editor que eu uso, após algum tempo consequi sem muito trabalho.
 Logo depois, acompanhei o vídeo disponibilizado pela alura e fui seguindo os passos, afim de exploração mesmo.
 

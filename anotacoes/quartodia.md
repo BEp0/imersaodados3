@@ -1,6 +1,8 @@
 # 4º dia:
 
+### [Link para o notebook do 4º dia](https://github.com/BEp0/imersaodados3/blob/main/arquivos_calab/dia4.ipynb)
 > Neste dia começamos a analisar a tabela de resultados
+
 
 ## O que foi feito:
 Inicialmente, verificamos o que significava a grande quantidade de zeros que tinhamos na tabela resultados, logo, usando o unique(), identificamos que não havia somente o zero, mas também o valor 1, onde o 0 significa que o mecanismo da ação não foi ativado e o 1 significa que ele foi ativado.
