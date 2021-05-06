@@ -1,4 +1,4 @@
-# 3º dia
+# 3º dia:
 ---
 Neste dia escalamos um pouco os dados e vimos que é fundamental ter a presença de um especialista no assunto abordado, devido a sua visão mais aprofuncdada que ele possui.
 
