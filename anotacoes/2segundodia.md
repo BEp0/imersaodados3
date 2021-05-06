@@ -1,5 +1,5 @@
 # 2º dia:
-### [Link para o notebook do 2º dia](https://github.com/BEp0/imersaodados3/blob/main/arquivos_calab/dia2.ipynb)
+### [Link para o notebook do 2º dia](https://github.com/BEp0/imersaodados3/blob/main/arquivos_calab/dia02.ipynb)
 
 Neste dia, iniciamos o vídeo com a apresentação da lib Seaborn, que é uma biblioteca para criação de gráficos
 
