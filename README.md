@@ -6,7 +6,7 @@ Olá! Me chamo Bernardo e aqui está documentado tudo meu trabalho dentro da sem
 
 Abaixo está os meus passos documentados a cada dia.
 
-- [Primeiro dia - Python e Pandas em um problema farmacêutico](https://github.com/BEp0/imersaodados3/blob/main/anotacoes/primeirodia.md)
-- [Segundo dia - Estatísticas, visualização de dados e distribuições](https://github.com/BEp0/imersaodados3/blob/main/anotacoes/segundodia.md)
-- [Terceiro dia - Correlações, causalidade e relações entre genes](https://github.com/BEp0/imersaodados3/blob/main/anotacoes/terceirodia.md)
-- [Quarto dia - Merge de dados e análise de resultados](https://github.com/BEp0/imersaodados3/blob/main/anotacoes/quartodia.md)
+- [Primeiro dia - Python e Pandas em um problema farmacêutico](https://github.com/BEp0/imersaodados3/blob/main/anotacoes/1primeirodia.md)
+- [Segundo dia - Estatísticas, visualização de dados e distribuições](https://github.com/BEp0/imersaodados3/blob/main/anotacoes/2segundodia.md)
+- [Terceiro dia - Correlações, causalidade e relações entre genes](https://github.com/BEp0/imersaodados3/blob/main/anotacoes/3terceirodia.md)
+- [Quarto dia - Merge de dados e análise de resultados](https://github.com/BEp0/imersaodados3/blob/main/anotacoes/4quartodia.md)
