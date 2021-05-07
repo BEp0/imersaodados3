@@ -10,3 +10,4 @@ Abaixo está os meus passos documentados a cada dia.
 - [Segundo dia - Estatísticas, visualização de dados e distribuições](https://github.com/BEp0/imersaodados3/blob/main/anotacoes/2segundodia.md)
 - [Terceiro dia - Correlações, causalidade e relações entre genes](https://github.com/BEp0/imersaodados3/blob/main/anotacoes/3terceirodia.md)
 - [Quarto dia - Merge de dados e análise de resultados](https://github.com/BEp0/imersaodados3/blob/main/anotacoes/4quartodia.md)
+- [Quinto dia - Machine Learning, Sci-kit Learning e desafios envolvidos](https://github.com/BEp0/imersaodados3/blob/main/anotacoes/5quintodia.md)
